@@ -1,0 +1,6 @@
+@SdelaiStanok.Server_HostAddress = http://localhost:5086
+
+GET {{SdelaiStanok.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
