@@ -8,7 +8,7 @@
 /*debug*/
 div {
     border: red 1px solid;
-
+    box-sizing: border-box;
 }
 
 p {
@@ -739,3 +739,60 @@ body {
     border-radius: 10px;
 }
 /*END ORDER*/
+
+/*QUESTION*/
+
+.question{
+    margin: 20px 0 20px 0;
+}
+
+.question-header{
+    height: 70px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-header h3{
+    font-size: 38px;
+    color: #EC631C;
+}
+
+.question-list{
+    height: calc(95px*6);
+}
+
+.question-list-item{
+    height: 95px;
+}
+
+.question-list-item button{
+    width: 40px;
+    height: 40px;
+
+    /*DEBUG*/
+    border: blue 1px solid;
+}
+
+/*END QUESTION*/
+
+/*MAP*/
+
+.map .header{
+    height: 115px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EC631C;
+}
+
+.map .header h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+/*END MAP*/
